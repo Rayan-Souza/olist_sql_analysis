@@ -11,6 +11,10 @@ Responder perguntas de negócio reais sobre vendas, logística, pagamentos e sat
 - **SQL Server (SSMS)** para modelagem e consultas
 - Dataset: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle)
 
+## Preparação
+
+Ao importar os CSVs no SQL Server, as colunas price, freight_value e payment_value vieram multiplicadas por 100. Rode 00_preparacao_dados.sql antes das demais queries.
+
 ## Modelo de dados
 
 O dataset é composto por 9 tabelas relacionadas por IDs:
