@@ -13,7 +13,7 @@ Responder perguntas de negócio reais sobre vendas, logística, pagamentos e sat
 
 ## Preparação
 
-Ao importar os CSVs no SQL Server, as colunas price, freight_value e payment_value vieram multiplicadas por 100. Rode 00_preparacao_dados.sql antes das demais queries.
+Ao importar os CSVs no SQL Server, as colunas price, freight_value e payment_value vieram multiplicadas por 100. Rode [`00_preparacao_dados.sql`](./00_preparacao_dados.sql) antes das demais queries.
 
 ## Modelo de dados
 
